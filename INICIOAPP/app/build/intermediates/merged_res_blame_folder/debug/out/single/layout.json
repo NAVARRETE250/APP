@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/super/Escriptori/INICIOAPP/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_usuari.xml",
+        "source": "/home/super/Escriptori/INICIOAPP/app/src/main/res/layout/fragment_usuari.xml"
+    },
+    {
+        "merged": "/home/super/Escriptori/INICIOAPP/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/super/Escriptori/INICIOAPP/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/super/Escriptori/INICIOAPP/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_fites.xml",
+        "source": "/home/super/Escriptori/INICIOAPP/app/src/main/res/layout/fragment_fites.xml"
+    },
+    {
+        "merged": "/home/super/Escriptori/INICIOAPP/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_conexio.xml",
+        "source": "/home/super/Escriptori/INICIOAPP/app/src/main/res/layout/fragment_conexio.xml"
+    }
+]

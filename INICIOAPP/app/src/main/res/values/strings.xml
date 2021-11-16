@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">INICIOAPP</string>
+    <string name="title_home">CONEXIO</string>
+    <string name="title_dashboard">USUARI</string>
+    <string name="title_notifications">FITES</string>
+</resources>

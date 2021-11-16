@@ -1959,6 +1959,7 @@ int id bounceBoth 0x7f08005f
 int id bounceEnd 0x7f080060
 int id bounceStart 0x7f080061
 int id button 0x7f080062
+int id button2 0x7f0801e0
 int id buttonPanel 0x7f080063
 int id cache_measures 0x7f080064
 int id cancel_button 0x7f080065
@@ -2030,6 +2031,7 @@ int id easeIn 0x7f0800a6
 int id easeInOut 0x7f0800a7
 int id easeOut 0x7f0800a8
 int id east 0x7f0800a9
+int id editTextTextPersonName 0x7f0800aa
 int id edit_query 0x7f0800ab
 int id elastic 0x7f0800ac
 int id end 0x7f0800ad
@@ -2291,6 +2293,7 @@ int id textSpacerNoTitle 0x7f0801ab
 int id textStart 0x7f0801ac
 int id textTop 0x7f0801ad
 int id textView 0x7f0801ae
+int id textView3 0x7f0801e1
 int id text_input_end_icon 0x7f0801af
 int id text_input_error_icon 0x7f0801b0
 int id text_input_start_icon 0x7f0801b1

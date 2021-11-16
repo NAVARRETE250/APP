@@ -1,5 +1,5 @@
-com/example/inicioapp/ui/Usuari/UsuariFragment.java
- com.example.inicioapp.ui.Usuari.UsuariFragment
+com/example/inicioapp/ui/conexio/ConexioViewModel.java
+ com.example.inicioapp.ui.conexio.ConexioViewModel
 com/example/inicioapp/ui/Fites/FitesViewModel.java
  com.example.inicioapp.ui.Fites.FitesViewModel
 com/example/inicioapp/ui/Fites/FitesFragment.java
@@ -8,20 +8,20 @@ com/example/inicioapp/BuildConfig.java
  com.example.inicioapp.BuildConfig
 com/example/inicioapp/ui/Usuari/UsuariViewModel.java
  com.example.inicioapp.ui.Usuari.UsuariViewModel
-com/example/inicioapp/MainActivity.java
- com.example.inicioapp.MainActivity
+conexion/Interfaz.java
+ conexion.Interfaz
 com/example/inicioapp/databinding/FragmentFitesBinding.java
  com.example.inicioapp.databinding.FragmentFitesBinding
 com/example/inicioapp/databinding/FragmentUsuariBinding.java
  com.example.inicioapp.databinding.FragmentUsuariBinding
-com/example/inicioapp/databinding/ActivityMainBinding.java
- com.example.inicioapp.databinding.ActivityMainBinding
+com/example/inicioapp/ui/Usuari/UsuariFragment.java
+ com.example.inicioapp.ui.Usuari.UsuariFragment
 com/example/inicioapp/databinding/FragmentConexioBinding.java
  com.example.inicioapp.databinding.FragmentConexioBinding
-com/example/inicioapp/ui/conexio/ConexioViewModel.java
- com.example.inicioapp.ui.conexio.ConexioViewModel
-conexion/Interfaz.java
- conexion.Interfaz
+com/example/inicioapp/databinding/ActivityMainBinding.java
+ com.example.inicioapp.databinding.ActivityMainBinding
+com/example/inicioapp/MainActivity.java
+ com.example.inicioapp.MainActivity
 com/example/inicioapp/ui/conexio/ConexioFragment.java
  com.example.inicioapp.ui.conexio.ConexioFragment
  com.example.inicioapp.ui.conexio.ConexioFragment$1

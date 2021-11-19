@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.databinding:viewbinding:7.0.2] /home/super/.gradle/caches/transforms-3/314e1866fb012a7eb1eea66695bd9e77/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/super/.gradle/caches/transforms-3/e8717e30bbc4cf00dfb30661685e96da/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.4.0] /home/super/.gradle/caches/transforms-3/25012fcc08d4c5cf5a2844c1a21a6fbe/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
@@ -47,25 +47,33 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/super/.gradle/cache
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/super/.gradle/caches/transforms-3/8ca7186ef83368b8549809152ed428ce/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/super/.gradle/caches/transforms-3/485578c608519582fc751ff2f7c88476/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/super/.gradle/caches/transforms-3/18e5cb54f886f7aa7e26ad4e22b3ac23/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:3:5-36
-		INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
-		INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-24:12
-		INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:5:22-76
 application
-ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:5:5-22:19
+ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:8:5-25:19
 MERGED from [com.google.android.material:material:1.4.0] /home/super/.gradle/caches/transforms-3/25012fcc08d4c5cf5a2844c1a21a6fbe/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /home/super/.gradle/caches/transforms-3/25012fcc08d4c5cf5a2844c1a21a6fbe/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /home/super/.gradle/caches/transforms-3/81808270a5cc0559f2b9db87cb315b87/transformed/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
@@ -77,39 +85,39 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/super
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] /home/super/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:11:9-47
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:14:9-47
 activity#com.example.inicioapp.MainActivity
-ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:12:9-21:20
+ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:15:9-24:20
 	android:label
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:15:13-45
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:18:13-45
 	android:exported
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:14:13-36
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:16:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml:22:27-74
 uses-sdk
-INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
-INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
+INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
+INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.0.2] /home/super/.gradle/caches/transforms-3/314e1866fb012a7eb1eea66695bd9e77/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.databinding:viewbinding:7.0.2] /home/super/.gradle/caches/transforms-3/314e1866fb012a7eb1eea66695bd9e77/transformed/jetified-viewbinding-7.0.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/super/.gradle/caches/transforms-3/e8717e30bbc4cf00dfb30661685e96da/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
@@ -196,13 +204,13 @@ MERGED from [androidx.print:print:1.0.0] /home/super/.gradle/caches/transforms-3
 MERGED from [androidx.print:print:1.0.0] /home/super/.gradle/caches/transforms-3/485578c608519582fc751ff2f7c88476/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/super/.gradle/caches/transforms-3/18e5cb54f886f7aa7e26ad4e22b3ac23/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/super/.gradle/caches/transforms-3/18e5cb54f886f7aa7e26ad4e22b3ac23/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
-INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
+INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
+INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
-		INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
-		ADDED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
-		INJECTED from /home/super/Escriptori/INICIOAPP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
+		ADDED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml
+		INJECTED from /home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/AndroidManifest.xml

@@ -26,21 +26,20 @@ public final class FragmentConexioBinding implements ViewBinding {
   public final Button button;
 
   @NonNull
-  public final EditText editTextTextPersonName;
+  public final ImageView imageView;
 
   @NonNull
-  public final ImageView imageView;
+  public final EditText ip;
 
   @NonNull
   public final TextView textView;
 
   private FragmentConexioBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
-      @NonNull EditText editTextTextPersonName, @NonNull ImageView imageView,
-      @NonNull TextView textView) {
+      @NonNull ImageView imageView, @NonNull EditText ip, @NonNull TextView textView) {
     this.rootView = rootView;
     this.button = button;
-    this.editTextTextPersonName = editTextTextPersonName;
     this.imageView = imageView;
+    this.ip = ip;
     this.textView = textView;
   }
 
@@ -77,15 +76,15 @@ public final class FragmentConexioBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.editTextTextPersonName;
-      EditText editTextTextPersonName = ViewBindings.findChildViewById(rootView, id);
-      if (editTextTextPersonName == null) {
-        break missingId;
-      }
-
       id = R.id.imageView;
       ImageView imageView = ViewBindings.findChildViewById(rootView, id);
       if (imageView == null) {
+        break missingId;
+      }
+
+      id = R.id.ip;
+      EditText ip = ViewBindings.findChildViewById(rootView, id);
+      if (ip == null) {
         break missingId;
       }
 
@@ -95,8 +94,8 @@ public final class FragmentConexioBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentConexioBinding((ConstraintLayout) rootView, button, editTextTextPersonName,
-          imageView, textView);
+      return new FragmentConexioBinding((ConstraintLayout) rootView, button, imageView, ip,
+          textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

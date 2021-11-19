@@ -1807,6 +1807,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable btnnaranja
 drawable btnrojo
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1959,6 +1960,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id button
+id button2
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -2079,6 +2081,7 @@ id included
 id info
 id invisible
 id inward
+id ip
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -2291,6 +2294,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

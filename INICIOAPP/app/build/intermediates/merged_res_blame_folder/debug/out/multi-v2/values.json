@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/super/Escriptori/INICIOAPP/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/super/.gradle/caches/transforms-3/b4790aa1caca6e7d9bde0bf1adfc442a/transformed/recyclerview-1.1.0/res/values/values.xml",
@@ -97,6 +97,25 @@
                     }
                 },
                 {
+                    "source": "/home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "818"
+                    },
+                    "to": {
+                        "startLines": "3932",
+                        "startColumns": "4",
+                        "startOffsets": "257944",
+                        "endLines": "3944",
+                        "endColumns": "12",
+                        "endOffsets": "258660"
+                    }
+                },
+                {
                     "source": "/home/super/.gradle/caches/transforms-3/1a721783f33f0b0f141ece40123d930b/transformed/jetified-appcompat-resources-1.3.1/res/values/values.xml",
                     "from": {
                         "startLines": "2,29,36,47,74",
@@ -135,6 +154,23 @@
                     }
                 },
                 {
+                    "source": "/home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "494,582,583,584,595,596,599",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "23894,29887,29934,29981,30725,30770,30936",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "23931,29929,29976,30023,30765,30810,30973"
+                    }
+                },
+                {
                     "source": "/home/super/.gradle/caches/transforms-3/9f2676b1c0969ec8c1ba6828bf396548/transformed/lifecycle-viewmodel-2.3.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -166,23 +202,6 @@
                         "startOffsets": "65488,80316,80392",
                         "endColumns": "52,75,86",
                         "endOffsets": "65536,80387,80474"
-                    }
-                },
-                {
-                    "source": "/home/super/Escriptori/INICIOAPP/app/src/main/res/values/dimens.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "88,146",
-                        "endColumns": "57,55",
-                        "endOffsets": "141,197"
-                    },
-                    "to": {
-                        "startLines": "682,683",
-                        "startColumns": "4,4",
-                        "startOffsets": "36474,36532",
-                        "endColumns": "57,55",
-                        "endOffsets": "36527,36583"
                     }
                 },
                 {
@@ -238,23 +257,6 @@
                         "startOffsets": "65006",
                         "endColumns": "53",
                         "endOffsets": "65055"
-                    }
-                },
-                {
-                    "source": "/home/super/Escriptori/INICIOAPP/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1,3,2,4",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "16,110,63,161",
-                        "endColumns": "46,50,46,53",
-                        "endOffsets": "58,156,105,210"
-                    },
-                    "to": {
-                        "startLines": "1194,1274,1275,1276",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "69201,81405,81456,81503",
-                        "endColumns": "46,50,46,53",
-                        "endOffsets": "69243,81451,81498,81552"
                     }
                 },
                 {
@@ -315,39 +317,20 @@
                     }
                 },
                 {
-                    "source": "/home/super/Escriptori/INICIOAPP/app/src/main/res/values/themes.xml",
+                    "source": "/home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "818"
+                        "startLines": "1,3,2,4",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "16,110,63,161",
+                        "endColumns": "46,50,46,53",
+                        "endOffsets": "58,156,105,210"
                     },
                     "to": {
-                        "startLines": "3932",
-                        "startColumns": "4",
-                        "startOffsets": "257944",
-                        "endLines": "3944",
-                        "endColumns": "12",
-                        "endOffsets": "258660"
-                    }
-                },
-                {
-                    "source": "/home/super/Escriptori/INICIOAPP/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
-                    },
-                    "to": {
-                        "startLines": "494,582,583,584,595,596,599",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "23894,29887,29934,29981,30725,30770,30936",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "23931,29929,29976,30023,30765,30810,30973"
+                        "startLines": "1194,1274,1275,1276",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "69201,81405,81456,81503",
+                        "endColumns": "46,50,46,53",
+                        "endOffsets": "69243,81451,81498,81552"
                     }
                 },
                 {
@@ -403,6 +386,23 @@
                         "startOffsets": "61742,61782,62839,63021,63076,64572,64626,64678,64727,64788",
                         "endColumns": "39,46,42,54,46,53,51,48,60,49",
                         "endOffsets": "61777,61824,62877,63071,63118,64621,64673,64722,64783,64833"
+                    }
+                },
+                {
+                    "source": "/home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,146",
+                        "endColumns": "57,55",
+                        "endOffsets": "141,197"
+                    },
+                    "to": {
+                        "startLines": "682,683",
+                        "startColumns": "4,4",
+                        "startOffsets": "36474,36532",
+                        "endColumns": "57,55",
+                        "endOffsets": "36527,36583"
                     }
                 },
                 {

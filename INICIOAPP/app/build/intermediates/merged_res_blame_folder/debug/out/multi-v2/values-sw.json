@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/super/Escriptori/INICIOAPP/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "outputFile": "/home/super/Escriptori/PROYECTO KAHOOT/APP/INICIOAPP/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
             "map": [
                 {
                     "source": "/home/super/.gradle/caches/transforms-3/255d63c0f9f8f5d12ab3191ffb377750/transformed/core-1.5.0/res/values-sw/values-sw.xml",

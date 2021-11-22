@@ -1,0 +1,79 @@
+
+package com.example.inicioapp.ui.Usuari;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
+
+import com.example.inicioapp.R;
+import com.example.inicioapp.databinding.FragmentUsuariBinding ;
+
+public class UsuariFragment extends Fragment {
+
+    private UsuariViewModel usuariViewModel;
+    private FragmentUsuariBinding binding;
+    EditText campoUsuario;
+    TextView txtUsuario;
+
+
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             ViewGroup container, Bundle savedInstanceState) {
+        usuariViewModel =
+                new ViewModelProvider(this).get(UsuariViewModel.class);
+
+        binding = FragmentUsuariBinding.inflate(inflater, container, false);
+        View root = binding.getRoot();
+
+
+        campoUsuario = (EditText) findViewById(R.id.editTextTextPersonName);
+        txtUsuario = (TextView)  findViewById(R.id.textView3);
+
+        return root;
+    }
+
+    private Object findViewById(int textView3) {
+
+        return null;
+    }
+
+    private void cargarPreferencias() {
+        SharedPreferences preferences = getActivity().getPreferences
+                (Context.MODE_PRIVATE);
+
+
+    }
+
+    private void guardarPreferencias() {
+        SharedPreferences preferences = getActivity().getPreferences
+                (Context.MODE_PRIVATE);
+        String usuario = campoUsuario.getText().toString();
+
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString("user",usuario);
+        txtUsuario.setText(usuario);
+        editor.commit();
+    }
+    public void onClick(View V){
+
+    }
+
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        binding = null;
+    }
+}
+

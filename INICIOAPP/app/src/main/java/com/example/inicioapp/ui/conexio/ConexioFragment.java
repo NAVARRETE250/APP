@@ -2,10 +2,12 @@ package com.example.inicioapp.ui.conexio;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.os.Parcelable;
 import android.text.Editable;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,6 +25,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.inicioapp.MainActivity;
+import com.example.inicioapp.MainActivity2;
 import com.example.inicioapp.R;
 import com.example.inicioapp.databinding.FragmentConexioBinding;
 import com.example.inicioapp.ui.Usuari.UsuariFragment;
@@ -30,6 +33,8 @@ import com.example.inicioapp.ui.Usuari.UsuariFragment;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import conexion.Interfaz;
 import lipermi.exception.LipeRMIException;
@@ -85,7 +90,7 @@ public class ConexioFragment extends Fragment {
 
                 CallHandler callHandler = new CallHandler();
 
-                Client client = new Client(ip, 7771, callHandler);
+                Client client = new Client(ip, 8010, callHandler);
 
                 interfaz = (Interfaz) client.getGlobal(Interfaz.class);
 
@@ -128,17 +133,12 @@ public class ConexioFragment extends Fragment {
                                 handler.post(new Runnable() {
                                     @Override
                                     public void run() {
-                                        semaforo.setImageResource(R.drawable.btnnaranja);
+                                        semaforo.setImageResource(R.drawable.btnverde);
                                     }
                                 });
 
                                 Toast.makeText(getContext(), "Se ha conectado correctamente", Toast.LENGTH_LONG).show();
 
-                                try {
-                                    client.close();
-                                } catch (IOException e) {
-                                    e.printStackTrace();
-                                }
                                 dialog.dismiss();
                             }
                         }
@@ -149,13 +149,14 @@ public class ConexioFragment extends Fragment {
                     handler.post(new Runnable() {
                         @Override
                         public void run() {
-                            semaforo.setImageResource(R.drawable.btnnaranja);
+                            semaforo.setImageResource(R.drawable.btnverde);
                         }
                     });
 
                     Toast.makeText(getContext(), "Se ha conectado correctamente", Toast.LENGTH_LONG).show();
 
-                    client.close();
+
+
                 }
 
             } catch (IOException e) {
@@ -167,6 +168,24 @@ public class ConexioFragment extends Fragment {
                     }
                 });
             }
+            final Timer timer = new Timer();
+
+            timer.scheduleAtFixedRate(new TimerTask() {
+                int i = 0;
+                public void run() {
+
+                    i++;
+                    if (i%3==0) {
+                        //Toast.makeText(getContext(), "Pasaron 3 segundos", Toast.LENGTH_SHORT).show();
+                        if(interfaz.kahootIsStarted()){
+                            Intent intent = new Intent(getContext(), MainActivity2.class);
+                            //intent.putExtra("Interfaz", (Parcelable) interfaz);
+                            startActivity(intent);
+                            timer.cancel();
+                        }
+                    }
+                }
+            }, 0, 1000);
             Looper.loop();
             return null;
         }

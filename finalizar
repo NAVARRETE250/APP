@@ -1,0 +1,15 @@
+
+
+public void avanzar (View vista){
+    Intent palante = new Intent(this, paradelante.class);
+    startActivity(palante);
+}
+
+/*
+para lo de finalizar  esto i lo que hace
+en el this es que es esta pagina i la de palante es la clase a la que se va a ir
+en start activity se pone el intent
+al view le tienes que dar un nombre
+
+para acabar en el boton en la opcion del onclick pones el avanzar (en la pestaña del .xml)
+*/
